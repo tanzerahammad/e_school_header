@@ -1,0 +1,56 @@
+/*font-link*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*common start*/
+:root{
+	--red: #FD511A;
+	--black: #000000;
+	--green: #21B573;
+	--bgg: #e3f7e3;
+
+
+	--pop:'Poppins', sans-serif;
+	--rob:'Roboto', sans-serif;
+
+	--16: 16px;
+	--36: 36px;
+
+	--400: 400;
+	--500: 500;
+	--700: 700;
+}
+body{
+	font-family: var(--pop);
+	font-size: var(--16);
+	font-weight: var(--400);
+	color: var(--black);
+}
+
+/*common end*/
+
+/*header start*/
+header{
+	background-color: var(--bgg);
+}
+.m_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	padding: 0 25px !important;
+	font-size: var(--16);
+    font-weight: var(--400);
+    color: var(--black) !important;
+    line-height: 24px;
+}
+.menu ul li a:hover{
+	color: var(--red) !important;
+}
+.btn_c{}
+.btn_sign{}
+/*header end*/
+
+
+
+
+
